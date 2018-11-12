@@ -23,4 +23,4 @@ deploy:
   repo: EducacionSiglo21/educacionsiglo21.github.io
   target-branch: master
   on:
-    branch: master%
+    branch: master
