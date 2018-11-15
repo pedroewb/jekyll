@@ -6,7 +6,7 @@ background: '/img/bg-contact.jpg'
 form: true
 ---
 
-<p>Rellena el formulario y nos pondremos en contacto con usted en cuanto podamos.</p>
+<p>Rellena el formulario y nos pondremos en contacto en cuanto podamos.</p>
 <form name="sentMessage" id="contactForm" novalidate>
   <div class="control-group">
     <div class="form-group floating-label-form-group controls">
@@ -19,6 +19,20 @@ form: true
     <div class="form-group floating-label-form-group controls">
       <label>Email</label>
       <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Por favor, introduce tu dirección de correo electrónico.">
+      <p class="help-block text-danger"></p>
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label>Centro Formativo</label>
+      <input type="text" class="form-control" placeholder="Centro Formativo" id="formativeCenter">
+      <p class="help-block text-danger"></p>
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label>Teléfono</label>
+      <input type="text" class="form-control" placeholder="Teléfono" id="phone">
       <p class="help-block text-danger"></p>
     </div>
   </div>
