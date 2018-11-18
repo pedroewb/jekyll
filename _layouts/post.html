@@ -33,13 +33,21 @@ layout: default
           {% if page.speakers %}
           <h2>Ponentes</h2>
           {% for speaker in page.speakers %}
-          <h6>{{ speaker.name }}</h6>
+          <h6>{{ speaker.name }}
+              {% if speaker.bio %}
+              - {{ speaker.bio }}
+              {% endif %}
+          </h6>
           {% endfor %}
           {% endif %}
           {% if page.presenters %}
           <h2>Presentan</h2>
           {% for presenter in page.presenters %}
-          <h6>{{presenter.name }}</h6>
+          <h6>{{presenter.name }}
+              {% if presenter.bio %}
+              - {{ presenter.bio }}
+              {% endif %}
+          </h6>
           {% endfor %}
           {% endif %}
         </div>
