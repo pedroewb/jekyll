@@ -1,26 +1,20 @@
 ---
 layout: post
-title: "CONFERENCIA INAUGURAL:"
+title: "CONFERENCIA INAUGURAL"
 subtitle: " Educación, Jueces y Constitución. ¿Una cuestión interpretativa o ideológica?"
 background: "/img/posts/01.jpg"
 eventDate: 2019-01-17 20:00:00 +0100
 placeName: "Paraninfo de la Universidad. Campus La Merced."
-placeMapsUrl: https://maps.google.com/maps?q=Paraninfo%20de%20la%20Universidad.%20Campus%20La%20Merced.&t=&z=13&ie=UTF8&iwloc=&output=embed
-program: "Local"
+placeMapsUrl: https://www.google.es/maps/place/Universidad+de+Murcia:+Campus+de+la+Merced/@37.9879088,-1.1281121,17z/data=!3m1!4b1!4m5!3m4!1s0xd6382053e745fa7:0x6673834210068e48!8m2!3d37.9879046!4d-1.1259234
+program: "Central"
 locality: "Espinardo"
 speakers:
-    - name: D. Juan Ant. Illán
-      bio: Caritas Murcia 
+    - name: Antonio Viñao
       photo: /images/posts/speakerNoAvatar.jpg
-    - name: D. Juan Luis Chillón
-      bio: Cruz Roja Reg. de Murcia 
-      photo: /img/posts/speakerNoAvatar.jpg
 presenters:
-    - name: Dña. Adoración Molina
-      bio: Portavoz y 1ª Tte. Alcalde 
+    - name: Paca Hermosilla
       photo: /img/posts/speakerNoAvatar.jpg
-    - name: Dña. María del Sol Sánchez Guirado
-      bio: Portavoz y 1ª Tte. Alcalde 
+    - name: Enrique Fuster
       photo: /img/posts/speakerNoAvatar.jpg
 ---
 
