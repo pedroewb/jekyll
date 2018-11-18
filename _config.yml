@@ -12,8 +12,26 @@ facebook_username: laeducaciondelsigloXXI
 
 # Build settings
 markdown:          kramdown
-paginate:          5
-paginate_path:     "/posts/page:num/"
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
+
+# Pagination
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: "/page/:num/"
+  sort_reverse: true
+  sort_field: 'eventDate'
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - art
+  - scripts
+  - README.md
