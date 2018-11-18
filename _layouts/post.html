@@ -2,7 +2,6 @@
 layout: default
 ---
 
-<!-- Page Header -->
 {% if page.background %}
 <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
   {% else %}
@@ -10,28 +9,42 @@ layout: default
     {% endif %}
     <div class="overlay"></div>
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="post-heading">
-            {% if page.title %}
-            <h1>{{ page.title }}</h1>
-            {% endif %}
-            {% if page.subtitle %}
-            <h2 class="subheading">{{ page.subtitle }}</h2>
-            {% endif %}
-            {% if page.eventDate %}
-            <span class="meta">
-              {{ page.eventDate | date: '%B %d, %Y. %H:%M' }}
-            </span>
-            {% endif %}
-            {% if page.title %}
-            <span class="meta">
-              <a href="{{ page.placeMapsUrl }}" target="_balnk">{{ page.placeName }}</a>
-            </span>
-            {% endif %}
-          </div>
+      <div class="row post-heading">
+        <div class="col-sm-9 mx-auto">
+          {% if page.title %}
+          <h1>{{ page.title }}</h1>
+          {% endif %}
+          {% if page.subtitle %}
+          <h2 class="subheading">{{ page.subtitle }}</h2>
+          {% endif %}
+          {% if page.eventDate %}
+          <span class="meta">
+            {{ page.eventDate | date: '%B %d, %Y. %H:%M' }}
+          </span>
+          {% endif %}
+          {% if page.title %}
+          <span class="meta">
+            <a href="{{ page.placeMapsUrl }}" target="_balnk">{{ page.placeName }}</a>
+          </span>
+          {% endif %}
+          <br />
+        </div>
+        <div class="col-sm-3">
+          {% if page.speakers %}
+          <h2>Ponentes</h2>
+          {% for speaker in page.speakers %}
+          <h6>{{ speaker.name }}</h6>
+          {% endfor %}
+          {% endif %}
+          {% if page.presenters %}
+          <h2>Presentan</h2>
+          {% for presenter in page.presenters %}
+          <h6>{{presenter.name }}</h6>
+          {% endfor %}
+          {% endif %}
         </div>
       </div>
+    </div>
     </div>
   </header>
 
@@ -40,8 +53,8 @@ layout: default
       <div class="col-lg-8 col-md-10 mx-auto">
 
         {{ content }}
-
         <hr>
+
         <div class="clearfix">
 
           {% if page.previous.url %}
@@ -55,8 +68,8 @@ layout: default
               Post</span> &rarr;</a>
           {% endif %}
 
-        </div>
 
+        </div>
       </div>
     </div>
   </div>

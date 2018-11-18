@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CONFERENCIA INAUGURAL"
-subtitle: " Educación, Jueces y Constitución. ¿Una cuestión interpretativa o ideológica?"
+subtitle: "Educación, Jueces y Constitución. ¿Una cuestión interpretativa o ideológica?"
 background: "/img/posts/01.jpg"
 eventDate: 2019-01-17 20:00:00 +0100
 placeName: "Paraninfo de la Universidad. Campus La Merced."
@@ -9,13 +9,10 @@ placeMapsUrl: https://www.google.es/maps/place/Universidad+de+Murcia:+Campus+de+
 program: "Central"
 locality: "Espinardo"
 speakers:
-    - name: Antonio Viñao
-      photo: /images/posts/speakerNoAvatar.jpg
+    - name: "Antonio Viñao"
 presenters:
-    - name: Paca Hermosilla
-      photo: /img/posts/speakerNoAvatar.jpg
-    - name: Enrique Fuster
-      photo: /img/posts/speakerNoAvatar.jpg
+    - name: "Paca Hermosilla"
+    - name: "Enrique Fuster"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
