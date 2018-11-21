@@ -1,17 +1,17 @@
-title:             Una Educación para el Siglo XXI
-subtitle:          Miradas desde las Ciencias y las Artes
-description:       V Jornadas 2019
-email:             jornadassiglo21@gmail.com
-navigationTitle:   Inicio
-author:            Educación Siglo XXI
+title: Una Educación para el Siglo XXI
+subtitle: Miradas desde las Ciencias y las Artes
+description: V Jornadas 2019
+email: jornadassiglo21@gmail.com
+navigationTitle: Inicio
+author: Educación Siglo XXI
 
 # Social Profiles
-twitter_username:  EDUCACION_SXXI
-github_username:   EducacionSiglo21
+twitter_username: EDUCACION_SXXI
+github_username: EducacionSiglo21
 facebook_username: laeducaciondelsigloXXI
 
 # Build settings
-markdown:          kramdown
+markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
@@ -20,9 +20,22 @@ plugins:
 pagination:
   enabled: true
   per_page: 10
-  permalink: "/page/:num/"
-  sort_reverse: true
-  sort_field: 'eventDate'
+  permalink: "/:num/"
+  title: ':title'
+
+# Autopages
+autopages:
+  enabled: true
+  tags:
+    enabled: true
+    layouts: 
+      - 'autopage_tags.html'
+    title: 'Programa - :tag'
+    permalink: '/programa/:tag'
+  categories:
+    enabled: false
+  collections:
+    enabled: false
 
 exclude:
   - Gemfile
