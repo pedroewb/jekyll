@@ -1,11 +1,12 @@
 ---
 layout: page
-title: Programa
+title: "Programa Central"
 background: '/img/bg-index.jpg'
 pagination: 
   enabled: true
   sort_field: 'eventDate'
   sort_reverse: true
+  categories: central
 ---
 
 {% for post in paginator.posts %}
@@ -23,7 +24,7 @@ pagination:
     {% if post.placeName %}
       {{ post.placeName }}
     {% endif %}
-    - {{ post.eventDate | date: '%B %d, %Y. %H:%M' }}
+    - {% include translated_date.html date=post.eventDate format="%H:%M, %d de %B, %Y" lang="es" %}
   </p>
 </article>
 
@@ -49,3 +50,8 @@ pagination:
 </div>
 
 {% endif %}
+
+<div class="center text-center">
+    <a class="btn btn-primary align-content-center" href="{{"/localidades" | relative_url }}">Programa por
+      Localidades</a>
+  </div>
