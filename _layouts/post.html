@@ -19,7 +19,7 @@ layout: default
           {% endif %}
           {% if page.eventDate %}
           <span class="meta">
-            {{ page.eventDate | date: '%B %d, %Y. %H:%M' }}
+            {% include translated_date.html date=page.eventDate format="%H:%M, %d de %B, %Y" lang="es" %}
           </span>
           {% endif %}
           {% if page.title %}
@@ -46,6 +46,16 @@ layout: default
           <h6>{{presenter.name }}
               {% if presenter.bio %}
               - {{ presenter.bio }}
+              {% endif %}
+          </h6>
+          {% endfor %}
+          {% endif %}
+          {% if page.coordinators %}
+          <h2>Coordinan</h2>
+          {% for coordinator in page.coordinators %}
+          <h6>{{coordinator.name }}
+              {% if coordinator.bio %}
+              - {{ coordinator.bio }}
               {% endif %}
           </h6>
           {% endfor %}
