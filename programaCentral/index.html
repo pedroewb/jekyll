@@ -4,8 +4,8 @@ title: "Programa Central"
 background: '/img/bg-index.jpg'
 pagination: 
   enabled: true
-  sort_field: 'eventDate'
-  sort_reverse: true
+  sort_field: 'eventdate'
+  sort_reverse: false
   categories: central
 ---
 
@@ -24,7 +24,7 @@ pagination:
     {% if post.placeName %}
       {{ post.placeName }}
     {% endif %}
-    - {% include translated_date.html date=post.eventDate format="%H:%M, %d de %B, %Y" lang="es" %}
+    - {% include translated_date.html date=post.eventdate format="%H:%M, %d de %B, %Y" lang="es" %}
   </p>
 </article>
 

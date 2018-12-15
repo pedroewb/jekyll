@@ -43,11 +43,11 @@ layout: default
         <!-- Home Post List -->
         <h1 style="margin: 0 auto; text-align: center">Próximas actividades</h1>
         <hr>
-        {% assign sorted_posts = site.posts | sort: 'eventDate' %}
+        {% assign sorted_posts = site.posts | sort: 'eventdate' %}
 
         {% for post in sorted_posts limit : 20 %}
 
-        {% if post.eventDate > site.time %}
+        {% if post.eventdate > site.time %}
         <article class="post-preview">
           <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
             <h2 class="post-title">{{ post.title }}</h2>
@@ -61,7 +61,7 @@ layout: default
             {% if post.placeName %}
             {{ post.placeName }}
             {% endif %}
-            {% include translated_date.html date=post.eventDate format="%H:%M, %d de %B, %Y" lang="es" %}
+            {% include translated_date.html date=post.eventdate format="%H:%M, %d de %B, %Y" lang="es" %}
           </p>
         </article>
 

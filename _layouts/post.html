@@ -17,9 +17,9 @@ layout: default
           {% if page.subtitle %}
           <h2 class="subheading">{{ page.subtitle }}</h2>
           {% endif %}
-          {% if page.eventDate %}
+          {% if page.eventdate %}
           <span class="meta">
-            {% include translated_date.html date=page.eventDate format="%H:%M, %d de %B, %Y" lang="es" %}
+            {% include translated_date.html date=page.eventdate format="%H:%M, %d de %B, %Y" lang="es" %}
           </span>
           {% endif %}
           {% if page.title %}
