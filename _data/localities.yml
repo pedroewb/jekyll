@@ -8,4 +8,73 @@
   backgroundPhoto: "/img/posts/bg-alhama.jpg"
   url: "/programa/alhama"
 
+- name: "Lorca"
+  tag: "lorca"
+  backgroundPhoto: "/img/posts/bg-lorca.jpg"
+  url: "/programa/lorca"
+
+- name: "Archena"
+  tag: "archena"
+  backgroundPhoto: "/img/posts/bg-archena.jpg"
+  url: "/programa/archena"
+
+- name: "Calasparra"
+  tag: "calasparra"
+  backgroundPhoto: "/img/posts/bg-calasparra.jpg"
+  url: "/programa/calasparra"
+
+- name: "Caravaca"
+  tag: "caravaca"
+  backgroundPhoto: "/img/posts/bg-caravaca.jpg"
+  url: "/programa/caravaca"
+
+- name: "Cieza"
+  tag: "cieza"
+  backgroundPhoto: "/img/posts/bg-cieza.jpg"
+  url: "/programa/cieza"
+
+- name: "Jumilla"
+  tag: "jumilla"
+  backgroundPhoto: "/img/posts/bg-jumilla.jpg"
+  url: "/programa/jumilla"
+
+- name: "Lorquí"
+  tag: "lorqui"
+  backgroundPhoto: "/img/posts/bg-lorqui.jpg"
+  url: "/programa/lorqui"
+
+- name: "Molina de Segura"
+  tag: "molina"
+  backgroundPhoto: "/img/posts/bg-molina.jpg"
+  url: "/programa/molina"
+
+- name: "Moratalla"
+  tag: "moratalla"
+  backgroundPhoto: "/img/posts/bg-moratalla.jpg"
+  url: "/programa/moratalla"
+
+- name: "Mula"
+  tag: "mula"
+  backgroundPhoto: "/img/posts/bg-mula.jpg"
+  url: "/programa/mula"
+
+- name: "Ricote"
+  tag: "ricote"
+  backgroundPhoto: "/img/posts/bg-ricote.jpg"
+  url: "/programa/ricote"
+
+- name: "Santomera"
+  tag: "santomera"
+  backgroundPhoto: "/img/posts/bg-santomera.jpg"
+  url: "/programa/santomera"
+
+- name: "Torre-Pacheco"
+  tag: "torrepacheco"
+  backgroundPhoto: "/img/posts/bg-torrepacheco.jpg"
+  url: "/programa/torrepacheco"
+
+- name: "Yecla"
+  tag: "yecla"
+  backgroundPhoto: "/img/posts/bg-yecla.jpg"
+  url: "/programa/yecla"
   
