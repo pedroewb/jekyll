@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Heike Freire en Alhama de Murcia"
+title: "¿Qué aprender en la escuela y cómo? ¿Por qué hay tantos diagnósticos de hiperactividad y déficit de atención? ¿Qué les está pasando a los niños?"
 subtitle: "Conferencia"
 background: "/img/posts/bg-alhama.jpg"
 eventdate: 2019-02-09 19:00:00 +0100
