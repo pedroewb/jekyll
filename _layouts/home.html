@@ -52,7 +52,8 @@ layout: default
           <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
             <h2 class="post-title">{{ post.title }}</h2>
             {% if post.subtitle %}
-            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+            <h3 class="post-subtitle">{{ post.subtitle }}
+            </h3>
             {% else %}
             <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
             {% endif %}
@@ -62,6 +63,10 @@ layout: default
             {{ post.placeName }}
             {% endif %}
             {% include translated_date.html date=post.eventdate format="%H:%M, %d de %B, %Y" lang="es" %}
+            {% assign locality = site.data.localities | where:"tag", post.tags.first  | first %}
+            {% if locality %}  
+              - {{ locality.name }}
+            {% endif %}  
           </p>
         </article>
 
