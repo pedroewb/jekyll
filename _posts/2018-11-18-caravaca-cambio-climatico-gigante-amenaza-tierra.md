@@ -3,7 +3,7 @@ layout: post
 title: "Cambio Climático, el gigante que amenaza la tierra. ¿Qué puedo hacer para frenar el cambio climático?"
 subtitle: "Conferencia"
 background: "/img/posts/bg-caravaca.jpg"
-eventdate: 2019-02-07 19:00:00 +0100
+eventdate: 2019-02-07 20:00:00 +0100
 category: "local"
 tags: "caravaca"
 placeName: "Casa de la Cultura Emilio Sáez"
