@@ -3,7 +3,7 @@ layout: post
 title: "¿Qué puedo hacer como ciudadano para frenar el cambio climático?"
 subtitle: "Conferencia"
 background: "/img/posts/bg-cieza.jpg"
-eventdate: 2019-02-26 12:30:00 +0100
+eventdate: 2019-02-26 12:00:00 +0100
 category: "local"
 tags: "cieza"
 placeName: "IES los Albares."
