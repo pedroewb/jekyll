@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "La Chana Obra: 'Entrediluvios'"
+title: "Cia La Chana Obra: 'Gaudeamus'"
 subtitle: "Teatro"
 background: "/img/posts/bg-calasparra.jpg"
 eventdate: 2019-01-29 10:00:00 +0100
