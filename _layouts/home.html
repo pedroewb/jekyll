@@ -63,10 +63,12 @@ layout: default
             {{ post.placeName }}
             {% endif %}
             {% include translated_date.html date=post.eventdate format="%H:%M, %d de %B, %Y" lang="es" %}
-            {% assign locality = site.data.localities | where:"tag", post.tags.first  | first %}
+            {% for locality_tag in post.tags %}
+            {% assign locality = site.data.localities | where:"tag", locality_tag  | first %}
             {% if locality %}  
               - {{ locality.name }}
             {% endif %}  
+            {% endfor %}
           </p>
         </article>
 
