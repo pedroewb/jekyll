@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "La Chana Teatro. “Entrediluvios”"
+title: "La Chana Teatro. “Gaudeamus”"
 subtitle: "Teatro"
 background: "/img/posts/bg-cieza.jpg"
 eventdate: 2019-01-24 12:00:00 +0100
