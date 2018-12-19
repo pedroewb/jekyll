@@ -3,7 +3,7 @@ layout: post
 title: "Cambio Climático. El gigante que amenaza la tierra"
 subtitle: "Conferencia"
 background: "/img/posts/bg-jumilla.jpg"
-eventdate: 2019-01-23 10:00:00 +0100
+eventdate: 2019-01-27 10:00:00 +0100
 category: "local"
 tags: "jumilla"
 placeName: "Auditorio Julián Santos."
