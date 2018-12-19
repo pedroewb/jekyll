@@ -3,7 +3,7 @@ layout: post
 title: "Educación Sexual en centros y familia: En(de)construcción (diversidades sexuales), Macedonia (Cómo me trato yo y como dejo que me traten los demás)."
 subtitle: "Conferencia"
 background: "/img/posts/bg-archena.jpg"
-eventdate: 2019-01-29 16:30:00 +0100
+eventdate: 2019-01-28 16:30:00 +0100
 category: "local"
 tags: "archena"
 placeName: "Casa de la Cultura"
