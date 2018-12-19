@@ -3,7 +3,7 @@ layout: post
 title: "La Chana Teatro: 'Vulgarcito'"
 subtitle: "Teatro"
 background: "/img/posts/bg-caravaca.jpg"
-eventdate: 2019-01-31 20:00:00 +0100
+eventdate: 2019-01-30 20:00:00 +0100
 category: "local"
 tags: "caravaca"
 placeName: "Teatro Tuiller"
