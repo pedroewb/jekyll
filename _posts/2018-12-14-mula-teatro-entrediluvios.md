@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Entrediluvios"
+title: "Gaudeamus"
 subtitle: "Teatro"
 background: "/img/posts/bg-mula.jpg"
 eventdate: 2019-01-31 12:30:00 +0100
