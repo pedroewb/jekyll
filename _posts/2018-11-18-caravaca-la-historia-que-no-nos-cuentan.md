@@ -3,7 +3,7 @@ layout: post
 title: "La Historia que no nos cuentan"
 subtitle: "Conferencia"
 background: "/img/posts/bg-caravaca.jpg"
-eventdate: 2019-02-14 19:00:00 +0100
+eventdate: 2019-02-14 20:00:00 +0100
 category: "local"
 tags: "caravaca"
 placeName: "Casa de la Cultura Emilio Sáez"
