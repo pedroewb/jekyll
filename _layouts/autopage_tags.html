@@ -1,6 +1,10 @@
 ---
 layout: page
 background: '/img/bg-index.jpg'
+pagination: 
+  enabled: true
+  sort_field: 'eventdate'
+  sort_reverse: false
 ---
 
 {% for post in paginator.posts %}
