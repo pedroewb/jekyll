@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Aprender Dialogando"
-subtitle: "Conferencia"
+subtitle: "Taller"
 background: "/img/posts/bg-moratalla.jpg"
 eventdate: 2019-02-06 20:00:00 +0100
 placeName: "Salón Social Benizar"
