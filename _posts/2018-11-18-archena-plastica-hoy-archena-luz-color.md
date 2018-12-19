@@ -3,7 +3,7 @@ layout: post
 title: "La Plástica hoy: Archena Luz y Color"
 subtitle: "Actividad a realizar en los centros"
 background: "/img/posts/bg-archena.jpg"
-eventdate: 2019-02-01 09:00:00 +0100
+eventdate: 2019-03-01 09:00:00 +0100
 category: "local"
 tags: "archena"
 placeName: "Casa de Cultura-Salón de actos y Teatro Villa de Archena"
