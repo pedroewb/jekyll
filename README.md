@@ -24,7 +24,7 @@ Lo último, pero no por ello lo más importante, debes enviar un email a [jornad
 
 Una vez te enviemos la invitación a la organización Educación Siglo XXI en GitHub estarás listos para añadir o editar contenido en el proyecto de nuestra página web que encontrarás aquí: [https://github.com/educacionsiglo21/jekyll](https://github.com/educacionsiglo21/jekyll/)
 
-![repository](./art/repository.png)
+![repository](./art/repositorio.png)
 
 # Estructura del proyecto
 
