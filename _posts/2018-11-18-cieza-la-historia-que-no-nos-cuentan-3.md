@@ -3,7 +3,7 @@ layout: post
 title: "La Historia que no nos cuentan"
 subtitle: "Conferencia"
 background: "/img/posts/bg-cieza.jpg"
-eventdate: 2019-04-02 12:30:00 +0100
+eventdate: 2019-04-04 12:30:00 +0100
 category: "local"
 tags: "cieza"
 placeName: "IES los Albares."

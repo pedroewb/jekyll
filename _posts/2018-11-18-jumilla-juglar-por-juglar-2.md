@@ -3,7 +3,7 @@ layout: post
 title: "Juglar x Juglar"
 subtitle: "Teatro"
 background: "/img/posts/bg-jumilla.jpg"
-eventdate: 2019-01-23 12:30:00 +0100
+eventdate: 2019-01-23 12:00:00 +0100
 category: "local"
 tags: "jumilla"
 placeName: "Teatro Vico."
