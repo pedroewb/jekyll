@@ -59,7 +59,7 @@ Redondas, Talleres y II Jornadas de Experiencias Educativas, en las que se abord
 cuestiones y problemas actuales en el ámbito de la educación.
 
 Las actividades se llevarán a cabo en la ciudad de Murcia, las Facultades de la UMU
-y Politécnica de Cartagena y en 14 municipios de la Región. Pretendemos descentralizar y
+y Politécnica de Cartagena y en 16 municipios de la Región. Pretendemos descentralizar y
 ampliar la audiencia de las Jornadas, así como la implicación en las mismas de distintos
 colectivos y organizaciones sociales, asociaciones culturales y vecinales, centros docentes y
 profesorado, fundaciones, empresas y entidades públicas.
