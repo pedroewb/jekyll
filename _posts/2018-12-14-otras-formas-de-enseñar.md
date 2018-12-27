@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Otras formas de enseñar: Educar para cuidar la vida, educar en Verde."
+title: "Educar en verde: la naturaleza como ambiente de aprendizaje"
 subtitle: "Conferencia"
 background: "/img/bg-index.jpg"
 eventdate: 2019-02-14 19:00:00 +0100
