@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Jornadas de Experiencias Educativas"
-subtitle: "ALTERNATIVS EDUCATIVAS PARA EL ALUMNADO CON NECSIDADES ESPECÍFICAS DE APRENDIZAJE"
+subtitle: "ALTERNATIVAS EDUCATIVAS PARA EL ALUMNADO CON NECESIDADES ESPECÍFICAS DE APRENDIZAJE"
 background: "/img/posts/bg-molina.jpg"
 eventdate: 2019-02-22 09:00:00 +0100
 placeName: "Centro Integral de Formació y Experiencias Agrarias de Molina de Segura"
