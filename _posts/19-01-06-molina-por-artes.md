@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "IV Molina por las Artes”"
+title: "IV Molina por las Artes"
 subtitle: "Muestra escolar de artes"
 background: "/img/posts/bg-molina.jpg"
 eventdate: 2019-02-05 19:00:00 +0100
